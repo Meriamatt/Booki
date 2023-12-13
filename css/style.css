@@ -1,3 +1,4 @@
+
 body {
 	font-family: 'Raleway', sans-serif;
 	color: #000000;
@@ -49,7 +50,7 @@ nav a {
 nav a:hover {
 	color: #0065FC;
 	border-top: 3px solid;
-	padding-top: 23px;
+	padding-top: 27px;
 }
 
 h1 {
@@ -129,9 +130,44 @@ form a {
 	
 
 }
+/* Animation au survol */
+@keyframes filterHover {
+	0% {
+	  transform: scale(1);
+	  background-color: white;
+	}
+	40% {
+	  transform: scale(1.2);
+	}
+	100% {
+	  transform: scale(1.1);
+	  background-color: #DEEBFF;
+	}
+  }
+
+  /* Animation au survol */
 .filterbox:hover {
-	background-color: #F2F2F2;
+	animation: filterHover 1s forwards;
 }
+
+@keyframes filterOut {
+	0% {
+	  transform: scale(1.2);
+	  background-color: #DEEBFF;
+	}
+	40% {
+	  transform: scale(1.1);
+	}
+	100% {
+	  transform: scale(1);
+	  background-color: white;
+	}
+  }
+  /* Animation lorsque le curseur quitte le filtre */
+.filterbox {
+	animation: filterOut 1s;
+  }
+
 
 
 
@@ -391,6 +427,16 @@ form a {
 
 .lien_util li {
 	padding: 5px 0px;
+}
+@media screen and (min-width: 1441px) {
+	body{
+		max-width: 1440px;
+		margin: 0 auto;
+	}
+	.etoile_cartes_populaires {
+		font-size: 0.5vw;
+	}
+
 }
 
 /*------ booki_tablette--------*/
