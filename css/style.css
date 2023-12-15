@@ -432,12 +432,35 @@ form a {
 	body{
 		max-width: 1440px;
 		margin: 0 auto;
+		font-size: 1em;
 	}
+	h1 {
+		font-size: 1em;
+	}
+	#barre_de_recherche p:first-child {
+		padding: 1vw;
+	}	
+	#rectangle_recherche input {
+		height: 2.5vw;
+	}
+	form p {
+		font-size: 0.9em;
+	}
+	form a {
+		padding: 1vw;
+	}
+
 	.filter {
-		font-size: 0.8vw;
+		font-size: 0.8em;
 	}
 	.filter i {
-		padding: 1vw 0.5vw;
+		padding: 0.5vw 0.5vw;
+	}
+	#populaires .cartes_populaires {
+		margin: 0 0vw 2vw;
+	}
+	#titre_populaires {
+		margin:auto
 	}
 	#populaires .cartes_populaires h3 {
 		font-size: 0.7vw;
@@ -447,6 +470,7 @@ form a {
 		height:auto;
 		width: 50%;
 		margin-right: 5px;
+		max-height: 170px;
 	}
 	.tarifs_etoiles {
 		font-size: 0.7vw;
@@ -455,15 +479,30 @@ form a {
 	.etoile_cartes_populaires {
 		font-size: 0.7vw;
 	}
-	h3{
-		font-size: 0.8vw;
+	h3 {
+		font-size: 0.6vw;
+	}
+	#carte_activites {
+		width:100%;
 	}
 	#carte_activites h3 {
+		font-size: 0.6vw;
 		width:auto;
 		padding: 10px 5px;
 	}
+	.img_activites {
+		width:100%
+	}
+	.img_verticale{
+		max-width: 360px;
+		width:24%;
+	}
 	.img_verticale img {
-		width: 12vw
+		width: 100%;
+	}
+	#footer {
+		margin-left: 5%;
+		width: 90%;
 	}
 
 
