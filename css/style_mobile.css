@@ -60,6 +60,7 @@ nav li:hover a {
 
 section {
 	margin-left: 5%;
+	margin-right: 2%;
 }
 
 form {
@@ -72,7 +73,7 @@ legend {
 }
 
 h1 {
-	font-size: 5vw;
+	font-size: 4vw;
 }
 
 h3 {

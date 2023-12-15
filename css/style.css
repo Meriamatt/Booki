@@ -433,15 +433,45 @@ form a {
 		max-width: 1440px;
 		margin: 0 auto;
 	}
-	.etoile_cartes_populaires {
-		font-size: 0.5vw;
+	.filter {
+		font-size: 0.8vw;
 	}
+	.filter i {
+		padding: 1vw 0.5vw;
+	}
+	#populaires .cartes_populaires h3 {
+		font-size: 0.7vw;
+	}
+	#populaires img {
+		min-width: auto;
+		height:auto;
+		width: 50%;
+		margin-right: 5px;
+	}
+	.tarifs_etoiles {
+		font-size: 0.7vw;
+		margin-top: 1vw;
+	}
+	.etoile_cartes_populaires {
+		font-size: 0.7vw;
+	}
+	h3{
+		font-size: 0.8vw;
+	}
+	#carte_activites h3 {
+		width:auto;
+		padding: 10px 5px;
+	}
+	.img_verticale img {
+		width: 12vw
+	}
+
 
 }
 
 /*------ booki_tablette--------*/
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 	body {
 		font-size: 1.5vw;
 	}
